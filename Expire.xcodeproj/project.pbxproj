@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		702C8A8E1CF211EB001057E3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702C8A8D1CF211EB001057E3 /* ListViewController.swift */; };
+		702C8A901CF213B9001057E3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702C8A8F1CF213B9001057E3 /* User.swift */; };
+		7059BF0C1CF22576007DF944 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7059BF0B1CF22576007DF944 /* Firebase.framework */; };
+		7059BF0E1CF225AF007DF944 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7059BF0D1CF225AF007DF944 /* libicucore.tbd */; };
+		7059BF101CF225BC007DF944 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7059BF0F1CF225BC007DF944 /* libc++.tbd */; };
+		7059BF121CF225C3007DF944 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7059BF111CF225C3007DF944 /* CFNetwork.framework */; };
+		7059BF141CF225C9007DF944 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7059BF131CF225C9007DF944 /* Security.framework */; };
+		7059BF161CF225D2007DF944 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7059BF151CF225D2007DF944 /* SystemConfiguration.framework */; };
 		70D7F9701CF20BC300634B85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D7F96F1CF20BC300634B85 /* AppDelegate.swift */; };
-		70D7F9721CF20BC300634B85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D7F9711CF20BC300634B85 /* ViewController.swift */; };
+		70D7F9721CF20BC300634B85 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D7F9711CF20BC300634B85 /* LoginViewController.swift */; };
 		70D7F9751CF20BC400634B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D7F9731CF20BC400634B85 /* Main.storyboard */; };
 		70D7F9771CF20BC400634B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70D7F9761CF20BC400634B85 /* Assets.xcassets */; };
 		70D7F97A1CF20BC400634B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D7F9781CF20BC400634B85 /* LaunchScreen.storyboard */; };
@@ -35,9 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		702C8A8D1CF211EB001057E3 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		702C8A8F1CF213B9001057E3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7059BF0B1CF22576007DF944 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		7059BF0D1CF225AF007DF944 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		7059BF0F1CF225BC007DF944 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7059BF111CF225C3007DF944 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7059BF131CF225C9007DF944 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7059BF151CF225D2007DF944 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		70D7F96C1CF20BC300634B85 /* Expire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D7F96F1CF20BC300634B85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		70D7F9711CF20BC300634B85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70D7F9711CF20BC300634B85 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		70D7F9741CF20BC400634B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70D7F9761CF20BC400634B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70D7F9791CF20BC400634B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +72,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7059BF161CF225D2007DF944 /* SystemConfiguration.framework in Frameworks */,
+				7059BF141CF225C9007DF944 /* Security.framework in Frameworks */,
+				7059BF121CF225C3007DF944 /* CFNetwork.framework in Frameworks */,
+				7059BF101CF225BC007DF944 /* libc++.tbd in Frameworks */,
+				7059BF0E1CF225AF007DF944 /* libicucore.tbd in Frameworks */,
+				7059BF0C1CF22576007DF944 /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +101,13 @@
 		70D7F9631CF20BC300634B85 = {
 			isa = PBXGroup;
 			children = (
+				7059BF151CF225D2007DF944 /* SystemConfiguration.framework */,
+				7059BF131CF225C9007DF944 /* Security.framework */,
+				7059BF111CF225C3007DF944 /* CFNetwork.framework */,
+				7059BF0F1CF225BC007DF944 /* libc++.tbd */,
+				7059BF0D1CF225AF007DF944 /* libicucore.tbd */,
 				70D7F99D1CF20C1700634B85 /* README.md */,
+				7059BF0B1CF22576007DF944 /* Firebase.framework */,
 				70D7F96E1CF20BC300634B85 /* Expire */,
 				70D7F9831CF20BC400634B85 /* ExpireTests */,
 				70D7F98E1CF20BC400634B85 /* ExpireUITests */,
@@ -101,8 +129,10 @@
 			isa = PBXGroup;
 			children = (
 				70D7F96F1CF20BC300634B85 /* AppDelegate.swift */,
-				70D7F9711CF20BC300634B85 /* ViewController.swift */,
+				702C8A8F1CF213B9001057E3 /* User.swift */,
+				70D7F9711CF20BC300634B85 /* LoginViewController.swift */,
 				70D7F9731CF20BC400634B85 /* Main.storyboard */,
+				702C8A8D1CF211EB001057E3 /* ListViewController.swift */,
 				70D7F9761CF20BC400634B85 /* Assets.xcassets */,
 				70D7F9781CF20BC400634B85 /* LaunchScreen.storyboard */,
 				70D7F97B1CF20BC400634B85 /* Info.plist */,
@@ -263,7 +293,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				70D7F99E1CF20C1700634B85 /* README.md in Sources */,
-				70D7F9721CF20BC300634B85 /* ViewController.swift in Sources */,
+				70D7F9721CF20BC300634B85 /* LoginViewController.swift in Sources */,
+				702C8A8E1CF211EB001057E3 /* ListViewController.swift in Sources */,
+				702C8A901CF213B9001057E3 /* User.swift in Sources */,
 				70D7F9701CF20BC300634B85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +440,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Expire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Expire;
@@ -419,6 +455,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Expire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Expire;
@@ -491,6 +531,7 @@
 				70D7F9961CF20BC400634B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70D7F9971CF20BC400634B85 /* Build configuration list for PBXNativeTarget "ExpireTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +540,7 @@
 				70D7F9991CF20BC400634B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70D7F99A1CF20BC400634B85 /* Build configuration list for PBXNativeTarget "ExpireUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +549,7 @@
 				70D7F99C1CF20BC400634B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
