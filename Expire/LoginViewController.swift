@@ -17,7 +17,6 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        ref.setValue("Hello I'm Here")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -28,7 +27,8 @@ class LoginViewController: UIViewController {
 
     @IBAction func loginPressed(sender: AnyObject) {
         let user = User(name: userName.text!, pass: passWord.text!)
-        print(user.getUserName())
+        //let r = self.ref.childByAppendingPath(userName.text!)
+        //r.setValue(user.toDictionary())
     }
 
 }

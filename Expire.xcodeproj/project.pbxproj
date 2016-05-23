@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		702C8A8E1CF211EB001057E3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702C8A8D1CF211EB001057E3 /* ListViewController.swift */; };
 		702C8A901CF213B9001057E3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702C8A8F1CF213B9001057E3 /* User.swift */; };
 		7059BF0C1CF22576007DF944 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7059BF0B1CF22576007DF944 /* Firebase.framework */; };
 		7059BF0E1CF225AF007DF944 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7059BF0D1CF225AF007DF944 /* libicucore.tbd */; };
@@ -15,6 +14,8 @@
 		7059BF121CF225C3007DF944 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7059BF111CF225C3007DF944 /* CFNetwork.framework */; };
 		7059BF141CF225C9007DF944 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7059BF131CF225C9007DF944 /* Security.framework */; };
 		7059BF161CF225D2007DF944 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7059BF151CF225D2007DF944 /* SystemConfiguration.framework */; };
+		70D0DB801CF3805E00027497 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D0DB7F1CF3805E00027497 /* ItemTableViewCell.swift */; };
+		70D0DB821CF3855900027497 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D0DB811CF3855900027497 /* MainViewController.swift */; };
 		70D7F9701CF20BC300634B85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D7F96F1CF20BC300634B85 /* AppDelegate.swift */; };
 		70D7F9721CF20BC300634B85 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D7F9711CF20BC300634B85 /* LoginViewController.swift */; };
 		70D7F9751CF20BC400634B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D7F9731CF20BC400634B85 /* Main.storyboard */; };
@@ -43,7 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		702C8A8D1CF211EB001057E3 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		702C8A8F1CF213B9001057E3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7059BF0B1CF22576007DF944 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		7059BF0D1CF225AF007DF944 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
@@ -51,6 +51,8 @@
 		7059BF111CF225C3007DF944 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		7059BF131CF225C9007DF944 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		7059BF151CF225D2007DF944 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		70D0DB7F1CF3805E00027497 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		70D0DB811CF3855900027497 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		70D7F96C1CF20BC300634B85 /* Expire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D7F96F1CF20BC300634B85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70D7F9711CF20BC300634B85 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -129,10 +131,11 @@
 			isa = PBXGroup;
 			children = (
 				70D7F96F1CF20BC300634B85 /* AppDelegate.swift */,
+				70D0DB7F1CF3805E00027497 /* ItemTableViewCell.swift */,
 				702C8A8F1CF213B9001057E3 /* User.swift */,
 				70D7F9711CF20BC300634B85 /* LoginViewController.swift */,
+				70D0DB811CF3855900027497 /* MainViewController.swift */,
 				70D7F9731CF20BC400634B85 /* Main.storyboard */,
-				702C8A8D1CF211EB001057E3 /* ListViewController.swift */,
 				70D7F9761CF20BC400634B85 /* Assets.xcassets */,
 				70D7F9781CF20BC400634B85 /* LaunchScreen.storyboard */,
 				70D7F97B1CF20BC400634B85 /* Info.plist */,
@@ -294,8 +297,9 @@
 			files = (
 				70D7F99E1CF20C1700634B85 /* README.md in Sources */,
 				70D7F9721CF20BC300634B85 /* LoginViewController.swift in Sources */,
-				702C8A8E1CF211EB001057E3 /* ListViewController.swift in Sources */,
 				702C8A901CF213B9001057E3 /* User.swift in Sources */,
+				70D0DB821CF3855900027497 /* MainViewController.swift in Sources */,
+				70D0DB801CF3805E00027497 /* ItemTableViewCell.swift in Sources */,
 				70D7F9701CF20BC300634B85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

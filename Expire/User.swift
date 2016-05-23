@@ -22,5 +22,11 @@ class User {
         return userName
     }
     
+    func toDictionary() -> AnyObject {
+        return [
+            "user name": userName,
+            "password": password,
+        ]
+    }
     
 }
